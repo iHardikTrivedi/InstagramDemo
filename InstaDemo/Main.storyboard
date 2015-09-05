@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Instagram Username :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rPm-zl-fVV">
+                                <rect key="frame" x="16" y="328" width="288" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="e69-ly-XHF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Text" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0tx-Mc-BfY">
+                                <rect key="frame" x="16" y="357" width="288" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="5L8-RQ-mwb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Instagram Full name :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHF-N4-apO">
+                                <rect key="frame" x="16" y="386" width="288" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="DE0-mK-MqL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Text" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p7n-at-ufI">
+                                <rect key="frame" x="16" y="415" width="288" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Psu-iP-Wyj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Instagram Website :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZAj-LB-LeF">
+                                <rect key="frame" x="16" y="444" width="288" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ID7-Cy-THw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Text" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2K-V2-aJY">
+                                <rect key="frame" x="16" y="473" width="288" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="5GS-2h-2Yw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconUser.png" translatesAutoresizingMaskIntoConstraints="NO" id="cPQ-yC-Df7">
+                                <rect key="frame" x="80" y="148" width="160" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="LjG-Qf-3oQ"/>
+                                    <constraint firstAttribute="height" constant="160" id="vE0-4N-idE"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="80"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUg-99-Uar">
+                                <rect key="frame" x="80" y="74" width="160" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="9cT-U6-SIa"/>
+                                    <constraint firstAttribute="height" constant="60" id="WXC-YS-M9C"/>
+                                </constraints>
+                                <state key="normal" image="iconLogin.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnInstagramLoginTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Xfv-AZ-VKc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZAj-LB-LeF" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="3Nc-T5-zIl"/>
+                            <constraint firstItem="0tx-Mc-BfY" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="41C-xp-afO"/>
+                            <constraint firstItem="c2K-V2-aJY" firstAttribute="top" secondItem="ZAj-LB-LeF" secondAttribute="bottom" constant="8" id="5ca-Tj-koY"/>
+                            <constraint firstItem="rPm-zl-fVV" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="9do-ZO-rPJ"/>
+                            <constraint firstItem="c2K-V2-aJY" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="AXJ-oA-SEU"/>
+                            <constraint firstItem="ZAj-LB-LeF" firstAttribute="top" secondItem="p7n-at-ufI" secondAttribute="bottom" constant="8" id="BQE-q3-yuS"/>
+                            <constraint firstItem="cPQ-yC-Df7" firstAttribute="top" secondItem="qUg-99-Uar" secondAttribute="bottom" constant="14" id="CUG-JF-8iQ"/>
+                            <constraint firstItem="ZAj-LB-LeF" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Ckn-lN-VPS"/>
+                            <constraint firstAttribute="centerX" secondItem="cPQ-yC-Df7" secondAttribute="centerX" id="Plc-xD-oQp"/>
+                            <constraint firstAttribute="centerX" secondItem="qUg-99-Uar" secondAttribute="centerX" id="Pw3-R8-uFv"/>
+                            <constraint firstItem="rPm-zl-fVV" firstAttribute="top" secondItem="cPQ-yC-Df7" secondAttribute="bottom" constant="20" id="R2e-b6-bEj"/>
+                            <constraint firstItem="0tx-Mc-BfY" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="RxR-kP-iCV"/>
+                            <constraint firstItem="p7n-at-ufI" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="WY6-eR-vrC"/>
+                            <constraint firstItem="p7n-at-ufI" firstAttribute="top" secondItem="tHF-N4-apO" secondAttribute="bottom" constant="8" id="XaG-O1-cGY"/>
+                            <constraint firstItem="p7n-at-ufI" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="aen-Mp-pKL"/>
+                            <constraint firstAttribute="centerY" secondItem="rPm-zl-fVV" secondAttribute="centerY" constant="-54.5" id="eLx-bH-qb7"/>
+                            <constraint firstItem="tHF-N4-apO" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="eZL-fg-RLg"/>
+                            <constraint firstItem="rPm-zl-fVV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="hlX-95-yf8"/>
+                            <constraint firstItem="tHF-N4-apO" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="iUA-f9-stz"/>
+                            <constraint firstAttribute="centerX" secondItem="rPm-zl-fVV" secondAttribute="centerX" id="iea-Si-PGs"/>
+                            <constraint firstItem="c2K-V2-aJY" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="rkV-dJ-5X1"/>
+                            <constraint firstItem="0tx-Mc-BfY" firstAttribute="top" secondItem="rPm-zl-fVV" secondAttribute="bottom" constant="8" id="sas-GG-uAL"/>
+                            <constraint firstItem="tHF-N4-apO" firstAttribute="top" secondItem="0tx-Mc-BfY" secondAttribute="bottom" constant="8" id="vnN-qj-hSW"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="ivUserPhoto" destination="cPQ-yC-Df7" id="aH8-h5-Tuv"/>
+                        <outlet property="lblFullname" destination="p7n-at-ufI" id="twp-2x-8Bo"/>
+                        <outlet property="lblUsername" destination="0tx-Mc-BfY" id="AwM-Lc-lgX"/>
+                        <outlet property="lblWebsite" destination="c2K-V2-aJY" id="5SV-0Z-745"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iconLogin.png" width="160" height="60"/>
+        <image name="iconUser.png" width="512" height="512"/>
+    </resources>
+</document>
